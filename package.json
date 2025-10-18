@@ -1,6 +1,6 @@
 {
   "name": "console-data-tables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Data tables for your console!",
   "type": "module",
   "scripts": {
@@ -16,6 +16,10 @@
   "dependencies": {
     "prettytable": "^2.0.0"
   },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/colacadstink/console-data-tables.git"
